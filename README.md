@@ -19,12 +19,13 @@ Note: this script only works in Unix (or Windows WSL).
 ## Table of Contents <!-- omit in toc -->
 
 - [Requirements](#requirements)
-- [Setup](#setup)
-  - [Email](#email)
+- [Email Setup](#email-setup)
 - [Installation](#installation)
 - [Technologies](#technologies)
 - [Individual File Overview](#individual-file-overview)
 - [Roadmap](#roadmap)
+  - [Todo](#todo)
+  - [Done](#done)
 - [License](#license)
 
 ## Requirements
@@ -66,17 +67,17 @@ This script uses the Gmail SMTP server. You can use some other SMTP server, but 
 
     ```python
     # DO NOT DELETE THIS FILE.
-   # Please enter your credentials below.
-   # This is read by ip_check.py.
+    # Please enter your credentials below.
+    # This is read by ip_check.py.
 
-   # Account that will send the emails.
-   sender_email = my_email@gmail.com
+    # Account that will send the emails.
+    sender_email = my_email@gmail.com
 
-   # Password for the Gmail account that will send emails, in plain text.
-   sender_password = my_password123
+    # Password for the Gmail account that will send emails, in plain text.
+    sender_password = my_password123
 
-   # Anyone who will receive the email. It can be the same as the sender, but doesn't have to be. It could be another Gmail account you have that you want to receive emails.
-   recipient_email = my_email@gmail.com
+    # Anyone who will receive the email. It can be the same as the sender, but doesn't have to be. It could be another Gmail account you have that you  want to receive emails.
+    recipient_email = my_email@gmail.com
     ```
 
 4. Then run `email_test.py`.
