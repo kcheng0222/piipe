@@ -8,6 +8,8 @@ RaspberryPi IP Emailer
 
 A script to email your RaspberryPi's IP address to you. Can be set to execute at boot and only emails when the IP address changes.
 
+Tested as of 2/2021.
+
 ![email_demo](screenshots/email_demo.png)
 
 If you are using DHCP, the IP address of the RaspberryPI could potentially change each time it boots. In order to determine the address, one usually connects a monitor and obtains the IP address from boot screen. However, it is not always convenient to attach a monitor. This script will determine if the IP address has changed and if so, email the new IP address to a designated recipient.
@@ -33,9 +35,7 @@ Note: this script only works in Unix (or Windows WSL).
 - Git
   - If you want to `git clone` the scripts from Github via terminal
 
-## Setup
-
-### Email
+## Email Setup
 
 This script uses the Gmail SMTP server. You can use some other SMTP server, but you might need to configure it yourself from the sender's settings. The steps below are for setting up the email account through Gmail. Two settings need to be relaxed in order for non-Gmail clients to send email. You probably want to use a secondary/spam Gmail account, because you need to provide plaintext password.
 
@@ -146,11 +146,17 @@ This project is created with
 
 ## Roadmap
 
-- Add README.txt
-- Move files to user's directories (rc file, etc)
-- Move pip installs to requirements.txt
-- Move packages installs to package manager so it is built-in
-- Uninstaller
+### Todo
+
+- [ ] Use socket instead of hostname
+- [ ] Move files to user's directories (rc file, etc)
+- [ ] Move pip installs to requirements.txt
+- [ ] Move packages installs to package manager so it is built-in
+
+### Done
+
+- [x] Uninstaller
+- [x] Add README.txt
 
 ## License
 
