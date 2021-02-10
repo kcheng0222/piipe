@@ -5,6 +5,7 @@
 RaspberryPi IP Emailer
 
 ![Python](https://img.shields.io/badge/python-v3.8.1+-blue.svg)
+![Raspberry Pi](https://img.shields.io/badge/-Raspberry%20Pi-C51A4A?style=for-the-badge&logo=Raspberry-Pi)
 
 A script to email your RaspberryPi's IP address to you. Can be set to execute at boot and only emails when the IP address changes.
 
