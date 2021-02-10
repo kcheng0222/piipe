@@ -1,0 +1,12 @@
+# DO NOT DELETE THIS FILE.
+# Please enter your credentials below.
+# This is read by ip_check.py.
+
+# Account that will send the emails.
+sender_email = my_email@gmail.com
+
+# Password for the Gmail account that will send emails, in plain text.
+sender_password = my_password123
+
+# Anyone who will receive the email. It can be the same as the sender, but doesn't have to be. It could be another Gmail account you have that you want to receive emails.
+recipient_email = my_email@gmail.com
