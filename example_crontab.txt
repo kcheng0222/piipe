@@ -1,5 +1,5 @@
-# this is an example of a crontab entry to check for new IP upon reboot.
+# This is an example of a crontab entry to check for new IP upon reboot.
 # to add this to cron, just run "crontab example_crontab.txt"
 # before you add it, run "crontab -l" to make sure there are no other entries.
-# if there are already other entries, then merge them.
+# If there are already other entries, then merge them.
 @reboot sleep 30 && ~/ip_check.py
