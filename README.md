@@ -58,6 +58,10 @@ This script uses the Gmail SMTP server. You can use some other SMTP server, but 
 
 2. Clone this repository using the URL on top right.
 
+    ```bash
+    git clone https://github.com/kcheng0222/piipe
+    ```
+
 3. Open `.ip_checkrc` and modify the 3 fields:
 
     ```python
